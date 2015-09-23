@@ -1,0 +1,11 @@
+Source: bglug-artwork
+Section: x11
+Priority: optional
+Maintainer: BGLug <info@bglug.it>
+Standards-Version: 3.9.1
+Homepage: http://www.bglug.it
+
+Package: bglug-artwork
+Architecture: all
+Description: Default BGLug artwork
+ At the moment, this package contains only the default background.

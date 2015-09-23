@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+	purge|remove)
+      update-alternatives \
+        --remove edubuntu_default.jpg \
+        /usr/share/backgrounds/BGLug.jpg 250
+      update-alternatives \
+        --remove edubuntu_default.png \
+        /usr/share/backgrounds/BGLug.jpg 250
+	;;
+
+    upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+	;;
+
+    *)
+	echo "$0 called with unknown argument \`$1'" 1>&2
+	exit 1
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
