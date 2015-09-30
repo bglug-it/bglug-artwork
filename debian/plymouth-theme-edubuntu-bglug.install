@@ -1,0 +1,3 @@
+plymouth-theme/*.png lib/plymouth/themes/edubuntu-logo-bglug/
+plymouth-theme/edubuntu-logo-bglug.plymouth lib/plymouth/themes/edubuntu-logo-bglug/
+plymouth-theme/*.script lib/plymouth/themes/edubuntu-logo-bglug/
