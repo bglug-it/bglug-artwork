@@ -5,10 +5,10 @@ case "$1" in
 	purge|remove)
       update-alternatives \
         --remove edubuntu_default.jpg \
-        /usr/share/backgrounds/BGLug.jpg 250
+        /usr/share/backgrounds/BGLug.jpg
       update-alternatives \
         --remove edubuntu_default.png \
-        /usr/share/backgrounds/BGLug.jpg 250
+        /usr/share/backgrounds/BGLug.jpg
 	;;
 
     upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
