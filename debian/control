@@ -2,19 +2,20 @@ Source: bglug-artwork
 Section: x11
 Priority: optional
 Maintainer: BGLug <info@bglug.it>
-SBuild-Depends: debhelper (>= 7), intltool, libplymouth-dev, pkg-config
-Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7), intltool, libplymouth-dev, pkg-config
+Standards-Version: 3.9.5
 Homepage: http://www.bglug.it
 
 Package: bglug-artwork
 Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Default BGLug artwork
  At the moment, this package contains only the default background.
 
 Package: plymouth-theme-edubuntu-bglug
 Architecture: all
-Depends: plymouth (>= 0.8.1-1), plymouth-label, ${misc:Depends}
+Depends: plymouth (>= 0.8.1-1), plymouth-label, ${shlibs:Depends}, ${misc:Depends}
 Provides: plymouth-theme
 Description: plymouth theme for Edubuntu - BGLug edition
-  This package contains a clone of base Edubuntu theme for plymouth,
-  customized with the BGLug logo.
+ This package contains a clone of base Edubuntu theme for plymouth,
+ customized with the BGLug logo.
