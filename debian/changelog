@@ -1,3 +1,9 @@
+bglug-artwork (14.04.1) UNRELEASED; urgency=medium
+
+  * Changed default background
+
+ -- Emiliano Vavassori <syntaxerrormmm@gmail.com>  Sat, 07 Nov 2015 10:17:34 +0200
+
 bglug-artwork (14.04.0) UNRELEASED; urgency=medium
 
   * Initial release.
